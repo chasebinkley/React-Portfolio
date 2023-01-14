@@ -3,8 +3,9 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
-import Resume from "./components/Resume";
+import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Banner from"./components/Header";
 
 import "./App.css";
 

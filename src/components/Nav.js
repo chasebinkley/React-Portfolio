@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { Component } from "react";
 import './css/Main.css'
 
 function Nav(props) {
