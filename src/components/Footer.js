@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Footer extends Component {
-    render() {
-        return (
-            <section id="Footer">
-            <h1>Footer</h1>
-        </section>
-        )
-    }
+function Footer() {
+  return (
+    <footer>
+      <p class="footerText">2023 | coded & designed by Chase Binkley</p>
+    </footer>
+  );
 }
+
 export default Footer;
