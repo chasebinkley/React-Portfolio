@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
-function Resume() {
-    return(
-        <section id="Resume">
+class Resume extends Component {
+    render() {
+        return (
+            <section id="Resume">
             <h1>Resume</h1>
         </section>
-    )
+        )
+    }
 }
-
 export default Resume;

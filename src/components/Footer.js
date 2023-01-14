@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
-function Footer() {
-    return(
-        <section id="Footer">
+class Footer extends Component {
+    render() {
+        return (
+            <section id="Footer">
             <h1>Footer</h1>
         </section>
-    )
+        )
+    }
 }
-
 export default Footer;
