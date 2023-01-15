@@ -7,9 +7,9 @@ function About() {
 
       <div class=" flex-row wrapper">
         <div class="intro-img">
-          <img id="profPic" src="./public/20221212_134001.jpg" alt="prof-pic" />
+          <img id="profPic" src="20221212_134001.jpg" alt="prof-pic" />
           <p class="me">
-          Hello there, my name is Chase Binkley and I am a web developer. I currently reside in Honolulu, Hawaii where I enjoy exploring the beautiful natural landscapes as much as discovering the hidden gems of the city life as well.
+          I am a web developer currently residing in Honolulu, Hawaii where I enjoy exploring the beautiful natural landscapes as much as discovering the hidden gems of the city life as well.
        Having just graduated from Berkley's full stack development bootcamp, I am excited to put the skills I've learned to good use creating and expanding upon the many wonderful projects to come.
           </p>
         </div>

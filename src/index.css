@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
 main,
 body {
-   
+
 }
 
 .homeScreen {
@@ -10,9 +16,9 @@ body {
 }
 
 #welcome {
-    padding-top: 267px;
+    padding-top: 249px;
     text-align: center;
-    font-size: 95px;
+    font-size: 110px;
     font-family:fantasy;
     color: #49c5b6;
     height: 15%;
@@ -61,3 +67,48 @@ a {
     font-family: fantasy;
     font-size: 20px;
 }
+
+#aboutMe {
+    background-color: #49c5b6;
+    padding-top: 140px;
+    height: 80%;
+  }
+  
+  .wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8%;
+  }
+  
+  .flex-row {
+    display: flex;
+  }
+  
+  #profPic {
+    height: auto;
+    max-width: 23%;
+    border-radius: 200px;
+    
+  }
+
+  .me1 {
+    color: #ffffff;
+    font-family: fantasy;
+    font-size: 30px;
+    height: 10%;
+    width: 40%;
+    float: right;
+    margin-right: 350px;
+  }
+  
+  .me {
+    height: 70%;
+    width: 70%;
+    float: right;
+    color: #ffffff;
+    font-family: fantasy;
+    font-size: 21px;
+    margin-right: 0;
+    line-height: 1.5;
+  }
