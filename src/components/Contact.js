@@ -1,19 +1,100 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
-class Contact extends Component {
-    render() {
-        return (
-            <section className="container-1">
+import { validateEmail } from "../utils/helpers";
 
-                <img id="contact-img" rel="./public/portfolioPic.jpg" width="180" height="180" alt="contact-img"/>
-                <h3><strong>Chase Binkley</strong></h3>
-                <h4>Random Text</h4>
-                <h4>Email Id: chasebinkley@yahoo.com</h4>
-                <a id="mail" href="chasebinkley@yahoo.com"/>
-                <h4>Contact number: 808-277-3492</h4>
-            
-            </section>
-        )
+function Contact() {
+
+  const [email, setEmail] = useState("");
+  const [userName, setUserName] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleInputChange = (e) => {
+
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "userName") {
+      setUserName(inputValue);
+    } else {
+      setMessage(inputValue);
     }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email) || !userName) {
+      setErrorMessage("Email or Name is invalid");
+      return;
+    }
+
+    if (!setMessage(message)) {
+      setErrorMessage(`Message is required.`);
+      return;
+    }
+
+    setUserName("");
+    setMessage("");
+    setEmail("");
+  };
+
+  return (
+    <section id="reach-out" className="contact">
+
+      <div className="contact-form">
+        <h3>Contact Me</h3>
+        <form className="form">
+
+          <label className="label" for="contact-name">
+            Your Name:
+          </label>
+          <input
+            value={userName}
+            name="userName"
+            onChange={handleInputChange}
+            type="text"
+            id="contact-name"
+            placeholder="Your Name"
+          />
+          <label className="label" for="contact-email">
+            Your Email:
+          </label>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            id="contact-email"
+            placeholder="Your Email"
+          />
+
+          <label className="label" for="contact-message">
+            Message:
+          </label>
+          <textarea
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="message"
+            id="contact-message"
+            placeholder="Your Message"
+          />
+          <button type="button" onClick={handleFormSubmit}>
+            Submit
+          </button>
+        </form>
+        {errorMessage && (
+          <div class="errorMsg">
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
+    </section>
+  );
 }
+
 export default Contact;
