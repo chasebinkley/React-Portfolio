@@ -11,7 +11,15 @@ This application is my portfolio that was created using React. Users can toggle 
 - Run npm install to install dependencies.
 - Run npm start to start the web server and connect
 
-#### Links
+####
+
+![screenshot of application front page](./assets/front_page.png)
+![screenshot of portfolio page](./assets/portfolio.png)
+![screenshot of about page](./assets/about.png)
+![screenshot of contact page](./assets/contact.png)
+![screenshot of resume page](./assets/resume.png)
+
+##### Links
 
 [GitHub](https://github.com/chasebinkley/React-Portfolio)
 [Deployed](can't deploy through heroku)
