@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// import for email validation
 import { validateEmail } from "../utils/helpers";
 
 function Contact() {
@@ -26,7 +27,7 @@ function Contact() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-
+    // error messages
     if (!validateEmail(email) || !userName) {
       setErrorMessage("Email or Name is invalid");
       return;
@@ -44,7 +45,7 @@ function Contact() {
 
   return (
     <section id="reach-out" className="contact">
-
+      {/* contact form section */}
       <div className="contact-form">
         <h3>Contact Me</h3>
         <form className="form">
