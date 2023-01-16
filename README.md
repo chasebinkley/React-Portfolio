@@ -6,13 +6,13 @@ This application is my portfolio that was created using React. Users can toggle 
 
 ### Installation
 
-Clone the repository from GitHub
-Install node.js
-Run npm install to install dependencies.
-Run npm start to start the web server and connect
+- Clone the repository from GitHub
+- Install node.js
+- Run npm install to install dependencies.
+- Run npm start to start the web server and connect
 
 #### Links
 
-[Github]()
-[Deployed]()
+[GitHub](https://github.com/chasebinkley/React-Portfolio)
+[Deployed](can't deploy through heroku)
 
