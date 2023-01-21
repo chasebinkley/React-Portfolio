@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css"; 
+// for some reason this is what breaks my code on other's computers ^
+import 'bootstrap';
 // All the components
 import Header from "../src/components/Header";
 import About from "../src/components/About";
