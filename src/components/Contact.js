@@ -84,7 +84,7 @@ function Contact() {
             id="contact-message"
             placeholder="Your Message"
           />
-          <button type="button" onClick={handleFormSubmit}>
+          <button className="contact-button" type="button" onClick={handleFormSubmit}>
             Submit
           </button>
         </form>

@@ -166,6 +166,10 @@ a {
   font-family: fantasy;
 }
 
+.contact-button {
+  margin-left: 200px;
+}
+
 #contact-name,
 #contact-email {
   max-height: 40px;

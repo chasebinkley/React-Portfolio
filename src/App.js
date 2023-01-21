@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css"; 
-// for some reason this is what breaks my code on other's computers ^
+// for some reason this is what breaks my code on other's computers ^ but hopefully works now
 import 'bootstrap';
 // All the components
 import Header from "../src/components/Header";
