@@ -14,7 +14,7 @@ This application is my portfolio that was created using React. Users can toggle 
 ####
 
 ![screenshot of application front page](./assets/front_page.png)
-![screenshot of portfolio page](./assets/portfolio.png)
+![screenshot of portfolio page](./assets/portfolio1.png)
 ![screenshot of about page](./assets/about.png)
 ![screenshot of contact page](./assets/contact.png)
 ![screenshot of resume page](./assets/resume.png)
