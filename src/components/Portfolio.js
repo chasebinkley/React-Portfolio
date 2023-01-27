@@ -132,6 +132,23 @@ function Portfolio() {
                   </div>
                 </div>
               </div>
+              <div className="col">
+                {" "}
+                <div
+                  style={{ backgroundImage: "url(/aloHa-img3.png)" }}
+                  className="item-wrap work"
+                >
+                  {" "}
+                  <div>
+                    <h3 className="projectTitle">
+                      <mark>aloHa</mark>
+                    </h3>
+                    <p>
+                      <mark>React, React-Bootstrap, Express.js, Node.js, MongoDb, Mongoose </mark>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
